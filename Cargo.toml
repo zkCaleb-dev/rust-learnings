@@ -1,0 +1,9 @@
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.22"
+random = "0.14.0"
+serde = { version = "1.0.215", features = ["derive"] }
